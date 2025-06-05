@@ -7,10 +7,10 @@ import img01 from '@/assets/img/01.png'
         <div class="max-w-7xl mx-auto flex items-center justify-between">
             <!-- Brand -->
             <div class="flex items-center space-x-2">
-                <a href="/" class="flex items-center space-x-2 text-gray-900">
+                <router-link to="/" class=" flex items-center space-x-2 text-gray-900">
                     <img :src="img01" alt="Agil Jibrin" class="w-6 h-6 rounded-full" />
                     <span class="text-lg font-medium">Agil Jibrin</span>
-                </a>
+                </router-link>
             </div>
 
             <!-- Navigation Links -->
