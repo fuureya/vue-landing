@@ -1,14 +1,18 @@
 <script setup>
-const emit = defineEmits(['updateEmit'])
+const emit = defineEmits(['updateEmit', 'keyword'])
 
 const sortBy = (type) => {
     emit('updateEmit', type)
+}
+const cari = (event) => {
+    emit('keyword', event.target.value)
+    console.log(event.target.value)
 }
 </script>
 
 <template>
     <div>
-        <h1 class="text-center mb-5 text-xl text-gray-900 md:text-3xl font-semibold">
+        <h1 class="text-center mb-5 text-xl text-gray-900 md:text-3xl font-semibold md:mt-10">
             Tulisan Saya
         </h1>
 
@@ -32,8 +36,5 @@ const sortBy = (type) => {
             </button>
         </div>
 
-        <!-- <input type="text" name="searchTerm" placeholder="Cari tulisan..."
-            class="w-full mt-5 flex-grow min-w-[200px] px-3 py-2 rounded-md border border-gray-300 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-500"
-            value="" /> -->
     </div>
 </template>

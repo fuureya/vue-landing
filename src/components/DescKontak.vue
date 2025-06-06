@@ -46,7 +46,7 @@ const kontak = [
 
 <template>
     <MasterBody>
-        <h1 class="text-3xl text-gray-900 md:text-4xl font-semibold">
+        <h1 class="text-3xl text-gray-900 md:text-4xl font-semibold md:mt-10">
             Kontak Saya
         </h1>
         <p class="text-gray-500 leading-relaxed mt-5">

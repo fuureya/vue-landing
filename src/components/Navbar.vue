@@ -6,7 +6,7 @@ const menuOpen = ref(false)
 </script>
 
 <template>
-    <nav class="bg-white py-5 px-4">
+    <nav class="bg-white py-3 px-5 md:px-[100px] lg:px-[150px] xl:px-100">
         <div class="max-w-7xl mx-auto flex items-center justify-between">
             <!-- Brand -->
             <router-link to="/" class="flex items-center space-x-2 text-gray-900">

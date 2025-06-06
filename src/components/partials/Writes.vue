@@ -11,6 +11,10 @@ const props = defineProps({
     sortType: {
         type: String,
         default: 'none'
+    },
+    keyword: {
+        type: String,
+        default: ''
     }
 })
 
