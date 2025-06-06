@@ -7,6 +7,6 @@ import SearchWrites from "./partials/SearchWrites.vue";
 <template>
     <MasterBody>
         <SearchWrites />
-        <Writes />
+        <Writes typeOfPage="all" />
     </MasterBody>
 </template>

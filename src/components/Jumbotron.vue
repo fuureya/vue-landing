@@ -21,7 +21,7 @@ import Writes from "./partials/Writes.vue"
                     class="inline-block mt-4 text-sm text-gray-500 bg-gray-300 hover:bg-gray-500 hover:text-white px-4 py-2 rounded transition">
                     Selengkapnya
                 </a>
-                <Writes />
+                <Writes typeOfPage="limit" />
             </div>
         </div>
     </MasterBody>
