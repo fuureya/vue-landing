@@ -32,9 +32,8 @@ const sortBy = (type) => {
             </button>
         </div>
 
-        <!-- Input pencarian (jika ingin digunakan nanti) -->
-        <input type="text" name="searchTerm" placeholder="Cari tulisan..."
+        <!-- <input type="text" name="searchTerm" placeholder="Cari tulisan..."
             class="w-full mt-5 flex-grow min-w-[200px] px-3 py-2 rounded-md border border-gray-300 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-500"
-            value="" />
+            value="" /> -->
     </div>
 </template>
