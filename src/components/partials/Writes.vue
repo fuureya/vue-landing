@@ -1,151 +1,23 @@
 <script setup>
-import books from '@/assets/img/book.png'
-const writes = [
-    {
-        id: 1,
-        title: 'Konfigurasi Tunnel EOIP Di Mikrotik',
-        type: 'Jaringan',
-        linkTulisan: 'https://medium.com/@fuureya/konfigurasi-tunnel-eoip-mikrotik-608f9a27b727'
-    },
-    {
-        id: 2,
-        title: 'Konfigurasi Point To Point Tunnel Protocol (PPTP) Mikrotik menggunakan Pnet',
-        type: 'Jaringan',
-        linkTulisan: 'https://medium.com/@fuureya/konfigurasi-point-to-point-tunnel-protocol-pptp-mikrotik-menggunakan-pnet-df15cb12866b'
-    },
-    {
-        id: 3,
-        title: 'Konfigurasi WLAN di mikrotik',
-        type: 'Jaringan',
-        linkTulisan: 'https://medium.com/@fuureya/konfigurasi-wlan-di-mikrotik-c87ff4e4d785'
-    },
-    {
-        id: 4,
-        title: 'Konfigurasi NAT di mikrotik menggunakan simulasi PNET LAB',
-        type: 'Jaringan',
-        linkTulisan: 'https://medium.com/@fuureya/konfigurasi-nat-di-mikrotik-menggunakan-simulasi-pnet-lab-c6b5557afca5'
-    },
-    {
-        id: 5,
-        title: 'Konfigurasi Firewall Filter Di Mikrotik Menggunakan Simulasi PNET LAB',
-        type: 'Jaringan',
-        linkTulisan: 'https://medium.com/@fuureya/konfigurasi-firewall-filter-di-mikrotik-menggunakan-simulasi-pnet-lab-5cfad35bd299'
-    },
-    {
-        id: 6,
-        title: 'Latihan SQL Injection Error based menggunakan ISO XVWA',
-        type: 'Cyber Security',
-        linkTulisan: 'https://medium.com/@fuureya/latihan-sql-injection-error-based-menggunakan-iso-xvwa-ef87ddec3c62'
-    },
-    {
-        id: 7,
-        title: 'Menginstall Docker & Docker Compose Kali Linux',
-        type: 'Server',
-        linkTulisan: 'https://medium.com/@fuureya/menginstall-docker-docker-compose-kali-linux-e5b512d308a3'
-    },
-    {
-        id: 8,
-        title: 'Membuat dan Mengelola User di Linux Ubuntu',
-        type: 'Server',
-        linkTulisan: 'https://medium.com/@fuureya/membuat-dan-mengelola-user-di-linux-ubuntu-882c76dfe7e7'
-    },
-    {
-        id: 9,
-        title: 'Permission Pada Linux Ubuntu',
-        type: 'Server',
-        linkTulisan: 'https://medium.com/@fuureya/permission-pada-linux-ubuntu-171ebda6eba2'
-    },
-    {
-        id: 10,
-        title: 'Implementasi Network Sederhana Di Linux Ubuntu',
-        type: 'Server',
-        linkTulisan: 'https://medium.com/@fuureya/implementasi-network-sederhana-di-linux-ubuntu-42272a831817'
-    },
-    {
-        id: 11,
-        title: 'Konfigurasi Mark Routing Di Mikrotik Menggunakan Router OS Versi 7',
-        type: 'Jaringan',
-        linkTulisan: 'https://medium.com/@fuureya/konfigurasi-mark-routing-di-mikrotik-menggunakan-router-os-versi-7-ab1add384e69'
-    },
-    {
-        id: 12,
-        title: 'Bruteforce Menggunakan Hydra Di Kali Linux',
-        type: 'Cyber Security',
-        linkTulisan: 'https://medium.com/@fuureya/bruteforce-menggunakan-hydra-di-kali-linux-bd8fe1936c89'
-    },
-    {
-        id: 13,
-        title: 'Menandai Paket Pada Port Tertentu Menggunakan Firewall Mangle Di Mikrotik',
-        type: 'Jaringan',
-        linkTulisan: 'https://medium.com/@fuureya/menandai-paket-menggunakan-firewall-mangle-di-mikrotik-a5b48484ca67'
-    },
-    {
-        id: 14,
-        title: 'Menandai Paket Pada Port Tertentu Menggunakan Firewall Mangle Di Mikrotik',
-        type: 'Jaringan',
-        linkTulisan: 'https://medium.com/@fuureya/menandai-paket-menggunakan-firewall-mangle-di-mikrotik-a5b48484ca67'
-    },
-    {
-        id: 15,
-        title: 'Load Balance Metode PCC & Fail Over Di Mikrotik',
-        type: 'Jaringan',
-        linkTulisan: 'https://medium.com/@fuureya/load-balance-metode-pcc-fail-over-di-mikrotik-fa15b0eb5636'
-    },
-    {
-        id: 16,
-        title: 'Deploy Laravel Di Oracle Cloud Menggunakan Docker',
-        type: 'Jaringan',
-        linkTulisan: 'https://medium.com/@fuureya/deploy-laravel-di-oracle-cloud-menggunakan-docker-ee5fa73c9e56'
-    },
-    {
-        id: 17,
-        title: 'Mendeteksi Port Scanning di Jaringan Menggunakan Custom Log di Firewall Mikrotik',
-        type: 'Jaringan',
-        linkTulisan: 'https://medium.com/@fuureya/mendeteksi-port-scanning-di-jaringan-menggunakan-custom-log-di-firewall-mikrotik-a5f2f2010b1f'
-    },
-    {
-        id: 18,
-        title: 'Roadmap Cyber Security 2025–2030',
-        type: 'Cyber Security',
-        linkTulisan: 'https://medium.com/@fuureya/roadmap-cyber-security-2025-2030-915503c2ec56'
-    },
-    {
-        id: 19,
-        title: 'Konfigurasi Routing OSPF (Open Shortest Path First) Di Mikrotik',
-        type: 'Jaringan',
-        linkTulisan: 'https://medium.com/@fuureya/konfigurasi-routing-ospf-open-shortest-path-di-mikrotik-e1249c02b8b4'
-    },
-    {
-        id: 20,
-        title: 'Berkenalan Dengan Burpsuite Dan Cara Konfigurasi Dasar Burpsuite',
-        type: 'Cyber Security',
-        linkTulisan: 'https://medium.com/@fuureya/berkenalan-dengan-burpsuite-dan-cara-konfigurasi-dasar-burpsuite-d26d7775d3c9'
-    },
-    {
-        id: 21,
-        title: 'Berkenalan Dengan Burpsuite Repeater Dan Studi KasusPath Traversal',
-        type: 'Cyber Security',
-        linkTulisan: 'https://medium.com/@fuureya/berkenalan-dengan-burpsuite-repeater-dan-studycase-path-traversal-42940c5c2021'
-    },
-    {
-        id: 22,
-        title: 'Cara Memindahkan WSL Ke Disk :D',
-        type: 'Pemrograman',
-        linkTulisan: 'https://medium.com/@fuureya/cara-memindahkan-wsl-ke-disk-d-d4b97fdd3c5b'
-    },
-    {
-        id: 23,
-        title: 'ICS / SCADA ?',
-        type: 'Cyber Security',
-        linkTulisan: 'https://medium.com/@fuureya/ics-scada-f87e24219ce6'
-    },
-]
+import cyber from '@/assets/img/cyber.png';
+import jaringan from '@/assets/img/jaringan.png';
+import pemrograman from '@/assets/img/pemrograman.png';
+import server from '@/assets/img/server.png';
+import writes from '@/assets/tulisan/tulisan.json';
+
 </script>
 <template>
     <a v-for="wr in writes" :href="wr.linkTulisan" target="_blank" class="max-w-md mx-auto">
         <div class="flex space-x-4 items-center my-5">
             <div class="w-10 h-10 overflow-hidden rounded-md flex-shrink-0 ">
-                <img :src="books" alt="Thumbnail" class="w-full h-full object-cover object-center" loading="lazy" />
+                <img v-if="wr.type == 'Cyber Security'" :src="cyber" alt="Thumbnail"
+                    class="w-full h-full object-cover object-center" loading="lazy" />
+                <img v-if="wr.type == 'Jaringan'" :src="jaringan" alt="Thumbnail"
+                    class="w-full h-full object-cover object-center" loading="lazy" />
+                <img v-if="wr.type == 'Pemrograman'" :src="pemrograman" alt="Thumbnail"
+                    class="w-full h-full object-cover object-center" loading="lazy" />
+                <img v-if="wr.type == 'Server'" :src="server" alt="Thumbnail"
+                    class="w-full h-full object-cover object-center" loading="lazy" />
             </div>
             <div class="flex-1">
                 <h2 class="text-lg font-semibold text-gray-900">
