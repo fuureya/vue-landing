@@ -136,5 +136,11 @@
     "title": "ICS / SCADA ?",
     "type": "Cyber Security",
     "linkTulisan": "https://medium.com/@fuureya/ics-scada-f87e24219ce6"
+  },
+  {
+    "id": 24,
+    "title": "Setup Local Server Hardening",
+    "type": "Server",
+    "linkTulisan": "https://medium.com/@fuureya/setup-local-server-hardening-28381f2e1ef0"
   }
 ]
