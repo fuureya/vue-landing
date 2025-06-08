@@ -142,5 +142,11 @@
     "title": "Setup Local Server Hardening",
     "type": "Server",
     "linkTulisan": "https://medium.com/@fuureya/setup-local-server-hardening-28381f2e1ef0"
+  },
+  {
+    "id": 25,
+    "title": "IP Tables Firewall Linux",
+    "type": "Server",
+    "linkTulisan": "https://medium.com/@fuureya/ip-tables-firewall-linux-4f51c5f8a768"
   }
 ]
