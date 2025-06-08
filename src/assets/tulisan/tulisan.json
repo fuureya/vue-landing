@@ -148,5 +148,11 @@
     "title": "IP Tables Firewall Linux",
     "type": "Server",
     "linkTulisan": "https://medium.com/@fuureya/ip-tables-firewall-linux-4f51c5f8a768"
+  },
+  {
+    "id": 26,
+    "title": "Cara Deploy Mikrotik CHR Di Alpine Linux Menggunakan Docker",
+    "type": "Server",
+    "linkTulisan": "https://medium.com/@fuureya/cara-deploy-mikrotik-chr-di-alpine-linux-menggunakan-docker-392b56a59038"
   }
 ]
