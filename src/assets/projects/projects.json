@@ -2,28 +2,28 @@
   {
     "id": 1,
     "title": "E-Library UKIP Makassar",
-    "description": "E-Library UKIP Paulus Makassar adalah sebuah platform perpustakaan digital yang dirancang untuk mempermudah pengelolaan dan akses terhadap berbagai jenis bahan pustaka di lingkungan kampus. Website ini dilengkapi dengan fitur-fitur utama seperti manajemen e-book, skripsi, jurnal ilmiah, serta aset buku fisik. Selain itu, sistem ini juga mendukung proses peminjaman dan pengembalian buku secara digital, serta menyediakan fasilitas pengajuan dokumen akademik seperti SKBP 1 dan SKBP 2. Dengan implementasi sistem ini, proses administrasi perpustakaan menjadi lebih efisien, terstruktur, dan mudah diakses oleh mahasiswa maupun staf kampus.",
+    "description": "E-Library UKIP Paulus Makassar adalah sebuah platform perpustakaan digital yang dirancang untuk mempermudah pengelolaan dan akses terhadap berbagai jenis bahan pustaka di lingkungan kampus. Website ini dilengkapi dengan fitur-fitur utama seperti manajemen e-book, skripsi, jurnal ilmiah, serta aset buku fisik.<br> Selain itu, sistem ini juga mendukung proses peminjaman dan pengembalian buku secara digital, serta menyediakan fasilitas pengajuan dokumen akademik seperti SKBP 1 dan SKBP 2. Dengan implementasi sistem ini, proses administrasi perpustakaan menjadi lebih efisien, terstruktur, dan mudah diakses oleh mahasiswa maupun staf kampus.",
     "img": "projects1.png",
     "linkProjects": "https://projects.com"
   },
   {
     "id": 2,
     "title": "Absensi Karyawan Wika Beton",
-    "description": "lorem ipsum",
+    "description": "Aplikasi ini dirancang khusus untuk mendukung kebutuhan pencatatan kehadiran pegawai WIKA Beton yang beroperasi di wilayah Sulawesi Selatan. Sistem ini memungkinkan pencatatan absensi harian dan lembur secara digital, sehingga mempermudah proses monitoring dan evaluasi kinerja karyawan. Selain itu, aplikasi ini juga dilengkapi dengan fitur pengelolaan data pegawai, mulai dari informasi pribadi hingga penugasan kerja sesuai dengan proyek atau divisi masing-masing. <br> Fungsi lainnya mencakup kemampuan untuk melakukan rekap laporan kehadiran secara otomatis, baik dalam bentuk harian, mingguan, bulanan, maupun tahunan. Dengan tampilan antarmuka yang sederhana dan mudah digunakan, aplikasi ini membantu bagian HR maupun manajemen dalam meningkatkan efisiensi dan akurasi dalam pengelolaan sumber daya manusia di lingkungan perusahaan.",
     "img": "projects2.png",
     "linkProjects": "https://projects.com"
   },
   {
     "id": 3,
     "title": "Company Profile SMKS Persada Makassar",
-    "description": "lorem ipsum",
+    "description": "Website ini dikembangkan sebagai media informasi resmi untuk memperkenalkan SMKS Persada Makassar kepada masyarakat luas. Tampilan yang sederhana dan responsif dirancang agar mudah diakses oleh berbagai kalangan, baik siswa, orang tua, maupun masyarakat umum. <br> Website ini memuat informasi penting seperti halaman beranda (home), profil singkat sekolah (about), data guru (teacher), informasi kontak sekolah (contacts), serta halaman khusus untuk Penerimaan Peserta Didik Baru (PPDB). <br> Dengan adanya website ini, sekolah dapat menyampaikan informasi secara lebih efektif dan memperluas jangkauan promosi secara digital, terutama saat masa penerimaan siswa baru berlangsung.",
     "img": "projects3.png",
     "linkProjects": "https://projects.com"
   },
   {
     "id": 4,
     "title": "EVENT ASMPID 2025",
-    "description": "lorem ipsum",
+    "description": "Website ini dikembangkan sebagai platform resmi untuk mendukung pelaksanaan acara ASMPID 2025. Tidak hanya berfungsi sebagai company profile acara, website ini juga menjadi pusat informasi dan media pendaftaran bagi peserta. <br> Fitur utama dari website ini mencakup sistem registrasi online, dashboard admin untuk mengelola data pendaftar, serta notifikasi email otomatis yang dikirim saat pendaftaran berhasil diverifikasi. Setiap pendaftar juga akan menerima barcode unik yang dapat digunakan sebagai identitas saat check-in di lokasi acara. <br> Dengan adanya sistem ini, proses administrasi menjadi lebih efisien, akurat, dan modern, serta mempermudah panitia dalam pengelolaan peserta dan validasi kehadiran.",
     "img": "projects4.png",
     "linkProjects": "https://projects.com"
   },
