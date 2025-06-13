@@ -72,7 +72,7 @@ const closeModal = () => {
                 </h2>
 
                 <img :src="`/projects/${selectedProject.img}`" alt="Project Image"
-                    class="w-full h-40 sm:h-52 md:h-64 lg:h-72 xl:h-80 object-cover rounded mb-4" />
+                    class="w-full  object-cover rounded mb-4" />
                 <p class="text-gray-500 mb-3 text-sm md:text-sm text-justify mt-10"
                     v-html="selectedProject.description || 'Tidak ada deskripsi tersedia.'">
                 </p>
