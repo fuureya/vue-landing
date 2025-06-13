@@ -30,35 +30,35 @@
   {
     "id": 5,
     "title": "Aplikasi Survei Kepuasan Alumni UNM",
-    "description": "lorem ipsum",
+    "description": "Aplikasi ini dikembangkan untuk mendukung proses pengumpulan dan analisis data kepuasan alumni di lingkungan Universitas Negeri Makassar (UNM). Platform ini memungkinkan kampus untuk secara sistematis menjaring feedback dari alumni terkait layanan pendidikan dan pengalaman mereka selama menempuh studi. <br> Website ini dilengkapi dengan fitur pengelolaan soal survei, pengelolaan jawaban responden, serta push notification untuk memastikan alumni menerima pemberitahuan terkait partisipasi survei. Selain itu, aplikasi ini juga telah dioptimalkan sebagai Progressive Web App (PWA), memungkinkan pengguna untuk mengakses dan menggunakan aplikasi secara ringan dan responsif melalui perangkat mobile, bahkan dalam kondisi jaringan terbatas. <br> Dengan adanya sistem ini, proses survei menjadi lebih efisien, terstruktur, dan dapat diakses dengan mudah oleh alumni, sekaligus memberikan data yang berharga bagi peningkatan kualitas pendidikan di UNM.",
     "img": "projects5.png",
     "linkProjects": "https://projects.com"
   },
   {
     "id": 6,
     "title": "Aplikasi E-Office Infolahtadam Hasanuddin Makassar",
-    "description": "lorem ipsum",
+    "description": "Aplikasi ini dikembangkan sebagai solusi digital untuk mendukung proses administrasi dan pengelolaan arsip di lingkungan Infolahtadam Hasanuddin Makassar. Sistem ini dirancang untuk menggantikan proses manual dengan pendekatan yang lebih efisien, terstruktur, dan mudah diakses secara internal oleh setiap divisi. <br> Fitur utama dalam aplikasi ini meliputi pengelolaan user, pengelolaan arsip file berdasarkan divisi, serta pengelolaan arsip persuratan yang juga dikategorikan per divisi. Dengan sistem ini, setiap unit kerja dapat dengan mudah mengunggah, mengakses, dan mengelola dokumen atau surat menyurat sesuai dengan wewenangnya. <br>Implementasi E-Office ini bertujuan untuk meningkatkan efektivitas kerja, mempercepat distribusi informasi internal, serta menjaga kerapihan dan keamanan data arsip secara digital.",
     "img": "projects6.png",
     "linkProjects": "https://projects.com"
   },
   {
     "id": 7,
     "title": "Aplikasi Pengelola Keuangan SMKS Persada Makassar",
-    "description": "lorem ipsum",
+    "description": "Aplikasi ini merupakan sistem informasi keuangan yang dirancang khusus untuk SMKS Persada Makassar dan diinstal pada server lokal sekolah. Tujuan utama dari aplikasi ini adalah untuk mempermudah dan menertibkan proses pencatatan serta pengelolaan keuangan internal sekolah secara digital dan terpusat. <br> Melalui aplikasi ini, staf keuangan dapat melakukan berbagai aktivitas penting seperti pencatatan pemasukan dan pengeluaran, pengelolaan transaksi harian, serta pencetakan nota dan rekap laporan keuangan. Selain itu, aplikasi juga menyediakan fitur ekspor laporan dalam format PDF dan Excel yang memudahkan dalam pelaporan administrasi atau keperluan audit. <br> Dengan implementasi aplikasi ini, proses keuangan menjadi lebih transparan, efisien, dan terdokumentasi dengan baik.",
     "img": "projects7.png",
     "linkProjects": "https://projects.com"
   },
   {
     "id": 8,
     "title": "CMS Arifah Islamic School Makassar",
-    "description": "lorem ipsum",
+    "description": "Aplikasi ini merupakan Content Management System (CMS) yang dikembangkan khusus untuk Arifah Islamic School Makassar. CMS ini bertujuan untuk memudahkan pihak sekolah dalam mengelola konten website secara dinamis, tanpa memerlukan pengetahuan teknis mendalam. <br> Beberapa fitur utama yang tersedia dalam aplikasi ini antara lain adalah pengelolaan halaman custom sesuai kebutuhan sekolah, manajemen blog untuk publikasi berita dan artikel, serta dukungan multi-bahasa untuk menjangkau audiens yang lebih luas. Selain itu, terdapat juga fitur pengaturan user untuk mengelola hak akses dan peran pengguna dalam sistem. <br> Dengan adanya CMS ini, pihak sekolah dapat memperbarui informasi dengan cepat, menjaga tampilan web tetap relevan, dan membangun komunikasi digital yang lebih baik dengan siswa, orang tua, dan masyarakat.",
     "img": "projects8.png",
     "linkProjects": "https://projects.com"
   },
   {
     "id": 9,
     "title": "Zabbix Bot Notification Telegram",
-    "description": "lorem ipsum",
+    "description": "Zabbix Bot Notification Telegram adalah sebuah sistem integrasi antara Zabbix dan Telegram Bot yang dikembangkan untuk memberikan notifikasi otomatis mengenai kondisi jaringan secara real-time. Project ini digunakan untuk memantau traffic jaringan pada perangkat Mikrotik CCR serta mengawasi jumlah host Ubiquiti dan Ruckus yang terhubung melalui protokol SNMP. <br> Setiap satu jam, sistem ini akan mengirimkan laporan ke Telegram yang mencakup informasi penting seperti jumlah host yang sedang aktif, host yang tidak terdeteksi atau mengalami gangguan, dan laporan detail mengenai host yang mengalami kondisi down. Tujuan dari sistem ini adalah untuk membantu tim operasional dalam memantau performa jaringan secara terus-menerus dan merespons masalah dengan lebih cepat dan efisien.",
     "img": "projects9.png",
     "linkProjects": "https://projects.com"
   }
