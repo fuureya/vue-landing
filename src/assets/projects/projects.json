@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "E-Library UKIP Makassar",
+    "description": "E-Library UKIP Paulus Makassar adalah sebuah platform perpustakaan digital yang dirancang untuk mempermudah pengelolaan dan akses terhadap berbagai jenis bahan pustaka di lingkungan kampus. Website ini dilengkapi dengan fitur-fitur utama seperti manajemen e-book, skripsi, jurnal ilmiah, serta aset buku fisik. Selain itu, sistem ini juga mendukung proses peminjaman dan pengembalian buku secara digital, serta menyediakan fasilitas pengajuan dokumen akademik seperti SKBP 1 dan SKBP 2. Dengan implementasi sistem ini, proses administrasi perpustakaan menjadi lebih efisien, terstruktur, dan mudah diakses oleh mahasiswa maupun staf kampus.",
+    "img": "projects1.png",
+    "linkProjects": "https://projects.com"
+  },
+  {
+    "id": 2,
+    "title": "Absensi Karyawan Wika Beton",
+    "description": "lorem ipsum",
+    "img": "projects2.png",
+    "linkProjects": "https://projects.com"
+  },
+  {
+    "id": 3,
+    "title": "Company Profile SMKS Persada Makassar",
+    "description": "lorem ipsum",
+    "img": "projects3.png",
+    "linkProjects": "https://projects.com"
+  },
+  {
+    "id": 4,
+    "title": "EVENT ASMPID 2025",
+    "description": "lorem ipsum",
+    "img": "projects4.png",
+    "linkProjects": "https://projects.com"
+  },
+  {
+    "id": 5,
+    "title": "Aplikasi Survei Kepuasan Alumni UNM",
+    "description": "lorem ipsum",
+    "img": "projects5.png",
+    "linkProjects": "https://projects.com"
+  },
+  {
+    "id": 6,
+    "title": "Aplikasi E-Office Infolahtadam Hasanuddin Makassar",
+    "description": "lorem ipsum",
+    "img": "projects6.png",
+    "linkProjects": "https://projects.com"
+  },
+  {
+    "id": 7,
+    "title": "Aplikasi Pengelola Keuangan SMKS Persada Makassar",
+    "description": "lorem ipsum",
+    "img": "projects7.png",
+    "linkProjects": "https://projects.com"
+  },
+  {
+    "id": 8,
+    "title": "CMS Arifah Islamic School Makassar",
+    "description": "lorem ipsum",
+    "img": "projects8.png",
+    "linkProjects": "https://projects.com"
+  },
+  {
+    "id": 9,
+    "title": "Zabbix Bot Notification Telegram",
+    "description": "lorem ipsum",
+    "img": "projects9.png",
+    "linkProjects": "https://projects.com"
+  }
+]
