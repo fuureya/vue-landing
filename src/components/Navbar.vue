@@ -26,6 +26,7 @@ const menuOpen = ref(false)
             <div class="hidden md:flex items-center space-x-6 text-sm font-light">
                 <router-link to="/about" class="hover:text-gray-400" active-class="text-gray-400">About</router-link>
                 <router-link to="/proyek" class="hover:text-gray-400" active-class="text-gray-400">Proyek</router-link>
+                <router-link to="/sertifikat" class="hover:text-gray-400" active-class="text-gray-400">Sertifikat</router-link>
                 <router-link to="/tulisan" class="hover:text-gray-400"
                     active-class="text-gray-400">Tulisan</router-link>
                 <router-link to="/kontak" class="hover:text-gray-400" active-class="text-gray-400">Kontak</router-link>
@@ -37,6 +38,8 @@ const menuOpen = ref(false)
             <router-link to="/about" class="block hover:text-gray-400" active-class="text-gray-400">About</router-link>
             <router-link to="/proyek" class="block hover:text-gray-400"
                 active-class="text-gray-400">Proyek</router-link>
+            <router-link to="/sertifikat" class="block hover:text-gray-400"
+                active-class="text-gray-400">Sertifikat</router-link>
             <router-link to="/tulisan" class="block hover:text-gray-400"
                 active-class="text-gray-400">Tulisan</router-link>
             <router-link to="/kontak" class="block hover:text-gray-400"

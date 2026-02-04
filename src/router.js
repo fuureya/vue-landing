@@ -4,6 +4,7 @@ import About from "./pages/About.vue";
 import Tulisan from "./pages/Tulisan.vue";
 import Kontak from "./pages/Kontak.vue";
 import Proyek from "./pages/Proyek.vue";
+import Sertifikat from "./pages/Sertifikat.vue";
 
 const routes = [
   { path: "/", component: Homepage },
@@ -11,6 +12,7 @@ const routes = [
   { path: "/tulisan", component: Tulisan },
   { path: "/kontak", component: Kontak },
   { path: "/proyek", component: Proyek },
+  { path: "/sertifikat", component: Sertifikat },
 ];
 
 const router = createRouter({
