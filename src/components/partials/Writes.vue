@@ -20,12 +20,23 @@ const props = defineProps({
 
 
 const filteredWrites = computed(() => {
-    if (!props.sortType || props.sortType === 'none') {
-        return write.slice().sort((a, b) => b.id - a.id)
+    let results = write.slice()
+
+    // Filter berdasarkan kategori jika ada
+    if (props.sortType && props.sortType !== 'none') {
+        results = results.filter(wr => wr.type === props.sortType)
     }
-    return write
-        .filter(wr => wr.type === props.sortType)
-        .sort((a, b) => b.id - a.id)
+
+    // Filter berdasarkan keyword jika ada
+    if (props.keyword) {
+        const search = props.keyword.toLowerCase()
+        results = results.filter(wr => 
+            wr.title.toLowerCase().includes(search)
+        )
+    }
+
+    // Sortir berdasarkan ID terbaru dan kembalikan
+    return results.sort((a, b) => b.id - a.id)
 })
 </script>
 

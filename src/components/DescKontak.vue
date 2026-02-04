@@ -30,11 +30,6 @@ const kontak = [
         img: fb
     },
     {
-        name: 'Instagram',
-        link: 'https://www.instagram.com/agil.core/',
-        img: ig
-    },
-    {
         name: 'Whatasapp',
         link: 'https://wa.me/6285757882739?text=Halo%2C%20saya%20ingin%20mengajukan%20pertanyaan%2C%20apakah%20kamu%20bisa%20membantu%20saya%3F ',
         img: wa

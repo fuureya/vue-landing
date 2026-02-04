@@ -19,6 +19,6 @@ const handleKeyword = (key) => {
 <template>
     <MasterBody>
         <SearchWrites @updateEmit="handleUpdate" @keyword="handleKeyword" />
-        <Writes :typeOfPage="'all'" :sortType="selectedType" />
+        <Writes :typeOfPage="'all'" :sortType="selectedType" :keyword="searchKeyword" />
     </MasterBody>
 </template>

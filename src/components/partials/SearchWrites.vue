@@ -16,6 +16,16 @@ const cari = (event) => {
             Tulisan Saya
         </h1>
 
+        <!-- Input Pencarian -->
+        <div class="max-w-md mx-auto mb-6">
+            <input 
+                type="text" 
+                @input="cari"
+                placeholder="Cari judul tulisan..." 
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-500 focus:border-transparent outline-none transition"
+            />
+        </div>
+
         <!-- Tombol filter -->
         <div class="flex flex-wrap justify-center gap-3">
             <button @click="sortBy('Jaringan')"
