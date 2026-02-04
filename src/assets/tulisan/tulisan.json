@@ -184,5 +184,35 @@
     "title": "Berkenalan Dengan Arch Linux",
     "type": "Server",
     "linkTulisan": "https://medium.com/@fuureya/berkenalan-dengan-arch-linux-8e682622bb79"
+  },
+  {
+    "id": 32,
+    "title": "Mematikan SSID Recovery Me Access Point Ruckus",
+    "type": "Jaringan",
+    "linkTulisan": "https://medium.com/@fuureya/mematikan-ssid-recovery-me-access-point-ruckus-a3649c80a5be"
+  },
+  {
+    "id": 33,
+    "title": "SQL Injection Menggunakan SQL Map",
+    "type": "Cyber Security",
+    "linkTulisan": "https://medium.com/@fuureya/sql-injection-menggunakan-sql-map-b302d2fce2a3"
+  },
+  {
+    "id": 34,
+    "title": "Instalasi Proxmox GUI Di Local Server",
+    "type": "Server",
+    "linkTulisan": "https://medium.com/@fuureya/instalasi-proxmox-gui-di-local-server-900da31ecca2"
+  },
+  {
+    "id": 35,
+    "title": "Membuat PPOE Server Dan PPOE Client Di Mikrotik",
+    "type": "Jaringan",
+    "linkTulisan": "https://medium.com/@fuureya/membuat-ppoe-server-dan-ppoe-client-menggunakan-mikrotik-e0c49f4de14f"
+  },
+  {
+    "id": 36,
+    "title": "Setup Email Server Di Linux Ubuntu Menggunakan Mailcow Dan Cloudflare",
+    "type": "Server",
+    "linkTulisan": "https://medium.com/@fuureya/setup-email-server-di-linux-ubuntu-menggunakan-mailcow-dan-cloudflare-92832f56620e"
   }
 ]
